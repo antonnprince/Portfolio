@@ -1,8 +1,13 @@
 import React from 'react'
 import Nav from './Nav'
 import Hero from './Hero'
+import { useState } from 'react'
+import loader from "../public/loader.svg"
+
 
 function App() {
+
+const showContent = false
 
   return (
     <div
