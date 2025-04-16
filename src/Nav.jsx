@@ -8,7 +8,7 @@ const Nav = () => {
   return (
 
     <div
-    className='bg-[#1C1917] px-2 md:px-12 py-2 rounded-lg '
+    className='bg-[#1C1917]  px-2 md:px-12 py-2 rounded-lg '
         >
             {/* someting */}
 
@@ -18,7 +18,7 @@ const Nav = () => {
                     return(
                         <li 
                         key={index}
-                        className='text-white hover:text-[#6B7280] font-thin 
+                        className='text-white hover:text-[#6B7280] font-semibold 
                         transition-all duration-300  hover:scale-110 ease-in-out
                         text-md '>
                         {item}
