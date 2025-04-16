@@ -8,7 +8,7 @@ const Nav = () => {
   return (
 
     <div
-    className='bg-[#1C1917]  px-2 md:px-12 py-2 rounded-lg '
+    className='bg-[#1C1917] w-fit mx-auto px-2 md:px-12 py-2 rounded-lg '
         >
             {/* someting */}
 
