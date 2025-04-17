@@ -6,7 +6,7 @@ const Hero = () => {
     className='flex flex-col md:flex-row w-full justify-between mt-12'
     >
         <div
-        className='bg-[#d4d4d4] w-full relative mr-72 rounded-lg'
+        className='bg-[#d4d4d4] w-full relative md:mr-32 lg:mr-42 rounded-lg'
         >
           {/* insert picture/avatar here */}
         </div>
@@ -22,10 +22,10 @@ const Hero = () => {
           </h1>
 
           <p
-           className='text-left mx-auto p-1 w-3/4 text-xs md:text-md'
+           className='text-left mx-auto p-1 text-xs md:text-lg'
           >
-            Providing robust solutions in the field of website and mobile application development and deployment.
-            Currently exploring LLM and Deep Learning
+            Providing robust solutions in the field of fullstack website and mobile application development and deployment.
+            On my way to learning all about LLMs and MLOps
           </p>
         </div>
     </div>
