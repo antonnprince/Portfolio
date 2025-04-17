@@ -1,9 +1,8 @@
 import React from 'react'
 import Nav from './Nav'
 import Hero from './Hero'
-import { useState } from 'react'
-import loader from "../public/loader.svg"
-
+import Summary from './Summary'
+import "./index.css"
 
 function App() {
 
@@ -15,6 +14,7 @@ const showContent = false
     >
       <Nav/>
      <Hero/>
+     <Summary />
    </div>
   )
 }
