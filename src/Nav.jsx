@@ -20,7 +20,7 @@ const Nav = () => {
                         key={index}
                         className='text-white hover:text-[#6B7280] font-semibold 
                         transition-all duration-300  hover:scale-110 ease-in-out
-                        text-md '>
+                        text-md hover:cursor-pointer'>
                         {item}
                         </li>   
                     )
