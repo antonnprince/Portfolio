@@ -25,7 +25,7 @@ const Hero = () => {
            className='text-left mx-auto p-1 text-xs md:text-lg'
           >
             Providing robust solutions in the field of fullstack website and mobile application development and deployment.
-            Currently exploring LLMs and MLOps.
+            Currently exploring LLMs and MLOps..
           </p>
         </div>
     </div>
