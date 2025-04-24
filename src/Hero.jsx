@@ -3,10 +3,10 @@ import React from 'react'
 const Hero = () => {
   return (
     <div
-    className='flex flex-col md:flex-row w-full justify-between mt-12'
+    className='flex flex-col md:flex-row w-full justify-between mt-12 p-0'
     >
         <div
-        className='bg-[#d4d4d4] w-full relative md:mr-32 lg:mr-42 rounded-lg'
+        className='bg-[#d4d4d4] w-full relative md:mr-28 lg:mr-42 rounded-lg'
         >
           {/* insert picture/avatar here */}
         </div>
@@ -25,7 +25,7 @@ const Hero = () => {
            className='text-left mx-auto p-1 text-xs md:text-lg'
           >
             Providing robust solutions in the field of fullstack website and mobile application development and deployment.
-            Currently exploring LLMs and MLOps..
+            Currently exploring LLMs and MLOps.
           </p>
         </div>
     </div>
