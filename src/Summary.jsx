@@ -6,7 +6,6 @@ const Summary = () => {
                 <h1> <span className='text-[#6B7280]'>+5</span> PROJECTS</h1>
                 <h1><span className='text-[#6B7280]'>+3</span> INTERNSHIPS</h1>
                 <h1><span className='text-[#6B7280]'>+7</span> HACKATHONS</h1>
-                {/* <h1>+12 TECH STACKS</h1> */}
             </div>
     
   )
