@@ -19,15 +19,15 @@ const TechStacks = () => {
             TECH STACKS</h1>
 
        
-            <div className='flex flex-row space-x-12'>
-              <img src={react} className='w-12 h-12 '/>
-              <img src={mongo} className='w-12 h-12  scale-250'/>
-              <img src={express} className='w-12 h-12 '/>
-              <img src={node} className='w-12 h-12 '/>
-              <img src={firebase} className='w-12 h-12 '/>
-              <img src={supabase} className='w-12 h-12 '/>
-              <img src={fastapi} className='w-12 h-12 '/>
-              <img src={huggingface} className='w-12 h-12 '/>
+            <div className='flex flex-row mx-auto w-5/6 justify-between '>
+              <img src={react} className='w-16 h-16 '/>
+              <img src={mongo} className='w-16 h-16  scale-250'/>
+              <img src={express} className='w-16 h-16 '/>
+              <img src={node} className='w-16 h-16 '/>
+              <img src={firebase} className='w-16 h-16 '/>
+              <img src={supabase} className='w-16 h-16 '/>
+              <img src={fastapi} className='w-16 h-16 '/>
+              <img src={huggingface} className='w-16 h-16 bg-white rounded-full '/>
             </div>
     </div>
   )
