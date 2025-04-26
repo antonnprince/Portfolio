@@ -8,7 +8,7 @@ const Hero = () => {
         <div
         className='bg-[#d4d4d4] w-full relative md:mr-28 lg:mr-42 rounded-lg'
         >
-          {/* insert picture/avatar here */}
+          {/* insert picture/avatar heregrtgtr */}
         </div>
 
         <div className='flex flex-col flex-wrap relative w-full p-2 md:w-1/2 mx-auto'>
