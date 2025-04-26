@@ -1,6 +1,8 @@
 import React from 'react'
 import react from "./assets/react.svg"
-import ts from "./assets/ts.svg"
+// import ts from "./assets/ts.svg"
+import express from "./assets/express.svg"
+
 const TechStacks = () => {
   return (
     <div 
@@ -15,7 +17,8 @@ const TechStacks = () => {
           Edit color from website itself */}
             <div className='flex flex-row space-x-12'>
               <img src={react} className='w-12 h-12 text-white'/>
-              <img src={ts} className='w-12 h-12 text-white'/>
+              {/* <img src={ts} className='w-12 h-12 text-white'/> */}
+              <img src={express} className='w-12 h-12 text-white'/>
             </div>
     </div>
   )
