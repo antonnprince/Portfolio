@@ -7,11 +7,9 @@ import "./index.css"
 
 function App() {
 
-const showContent = false
-
   return (
     <div
-    className='flex flex-col p-2 min-h-screen'
+    className='flex flex-col p-2 h-full'
     >
       <Nav/>
      <Hero/>

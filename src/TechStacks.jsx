@@ -1,7 +1,10 @@
 import React from 'react'
 import react from "./assets/react.svg"
-// import ts from "./assets/ts.svg"
+import mongo from "./assets/mongodb.svg"
 import express from "./assets/express.svg"
+import node from "./assets/node.svg"
+import firebase from "./assets/firebase.svg"
+import supabase from "./assets/supabase.svg"
 
 const TechStacks = () => {
   return (
@@ -17,8 +20,11 @@ const TechStacks = () => {
           Edit color from website itself */}
             <div className='flex flex-row space-x-12'>
               <img src={react} className='w-12 h-12 text-white'/>
-              {/* <img src={ts} className='w-12 h-12 text-white'/> */}
+              <img src={mongo} className='w-12 h-12 text-white scale-250'/>
               <img src={express} className='w-12 h-12 text-white'/>
+              <img src={node} className='w-12 h-12 text-white'/>
+              <img src={firebase} className='w-12 h-12 text-white'/>
+              <img src={supabase} className='w-12 h-12 text-white'/>
             </div>
     </div>
   )
