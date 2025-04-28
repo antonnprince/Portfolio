@@ -16,7 +16,7 @@ const TechStacks = () => {
     
         <h1 
         className='my-1 md:my-4 mx-auto text-[#6B7280] text-2xl md:text-3xl lg:text-6xl font-extrabold'>
-            TECH STACS</h1>
+            TECH STACKS</h1>
 
        
             <div className='flex flex-row space-x-4 mx-auto w-full justify-between p-2 overflow-x-auto overflow-y-hidden'>
