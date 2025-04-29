@@ -16,9 +16,11 @@ const TechStacks = () => {
     >
     
         <h1 
-        className='my-1 md:my-4 mx-auto text-[#6B7280] text-2xl md:text-3xl lg:text-6xl font-extrabold'>
+        className='my-1 md:my-4 mx-auto text-[#6B7280] text-4xl md:text-3xl lg:text-7xl font-extrabold'
+        // style={{ textShadow: '7px 7px 10px rgb(79, 71, 71)' }}
+        >
             TECH STACKS</h1>
-            <div className='flex flex-row space-x-4 mx-auto w-full justify-between p-2 overflow-x-auto overflow-y-hidden'>
+            <div className='flex flex-row space-x-4 py-4 mx-auto w-full justify-between p-2 overflow-x-auto overflow-y-hidden'>
               <img src={react} className='w-8 h-8 md:w-16 md:h-16 inline-block' />
               <img src={mongo} className='w-8 h-8 md:w-16 md:h-16 scale-170  inline-block' />
               <img src={express} className='w-8 h-8 md:w-16 md:h-16 inline-block' />
