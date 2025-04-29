@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 import Summary from './Summary'
 import TechStacks from './TechStacks'
+import Experience from './Experience'
 import "./index.css"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <Hero/>
      <Summary />
      <TechStacks/>
+      <Experience/>
    </div>
   )
 }

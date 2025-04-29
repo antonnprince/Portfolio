@@ -8,6 +8,7 @@ import supabase from "./assets/supabase.svg"
 import fastapi from "./assets/fastapi.svg"
 import huggingface from "./assets/huggingface.svg"
 
+
 const TechStacks = () => {
   return (
     <div 
