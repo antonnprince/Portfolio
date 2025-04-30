@@ -16,7 +16,7 @@ const Experience = () => {
             description: "Developed departmental dashboard that helps employees to manage their tasks and projects."    
         },
         {
-            title: "React Native Developer Intern",
+            title: "React Native Developer Inter",
             company: "Raftel Tech",
             date: "May 2022 - November 2022",
             description: "Developed a website using HTML, CSS, and JavaScript."

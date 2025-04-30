@@ -12,11 +12,11 @@ function App() {
     <div
     className='flex flex-col p-2 h-full'
     >
-      <Nav/>
-     <Hero/>
-     <Summary />
-     <TechStacks/>
-      <Experience/>
+        <Nav/>
+        <Hero/>
+        <Summary />
+        <TechStacks/>
+        <Experience/>
    </div>
   )
 }
