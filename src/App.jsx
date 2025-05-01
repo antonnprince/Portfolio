@@ -4,6 +4,7 @@ import Hero from './Hero'
 import Summary from './Summary'
 import TechStacks from './TechStacks'
 import Experience from './Experience'
+import Projects from './Projects'
 import "./index.css"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Summary />
         <TechStacks/>
         <Experience/>
+        <Projects/>
    </div>
   )
 }

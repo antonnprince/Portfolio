@@ -28,7 +28,6 @@ const Experience = () => {
     className=' flex flex-col  w-full justify-between mt-12 space-y-12 p-0'
     >
         <h1 className='my-1 md:my-4 mx-auto text-[#6B7280] text-center  text-4xl md:text-3xl lg:text-7xl font-extrabold'
-    // style={{ textShadow: '10px 1px 10px rgb(113, 104, 104)' }}
         >EXPERIENCE</h1>
         {
             experiences.map((experience, index) => (
@@ -38,7 +37,8 @@ const Experience = () => {
                    >{index + 1}. {experience.company.toUpperCase()}</h3> 
                     <h2 className='text-lg lg:text-xl font-bold'> {experience.title.toUpperCase()}</h2>   
                     <p className='text-sm md:text-lg font-bold'>{experience.date}</p>
-                    <p className='text-sm md:text-lg text-center w-1/2  mx-auto'>{experience.description}</p>
+                    <p 
+                    className='text-sm md:text-lg text-center w-1/2  mx-auto'>{experience.description}</p>
                     </div>
             ))
         }
