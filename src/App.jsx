@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div
-    className='flex flex-col p-2 h-full'
+    className='flex flex-col p-2 mx-4 h-full'
     >
         <Nav/>
         <Hero/>
