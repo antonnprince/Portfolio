@@ -1,4 +1,6 @@
 import React from 'react'
+import link from "./assets/link.svg"
+
 
 const Projects = () => {
   const projects = [
@@ -6,19 +8,16 @@ const Projects = () => {
         title: "Hyperly",
         description: "This is a Saas platform where people can generate industry and product relevant content for their social media platforms, increasing social media presence and saving time",
         link: "hyperlyinternship.netlify.app/",
-        // image: "https://ephemeral-treacle-2f546e.netlify.app/"
     },
     {
         title: "Elite Arena",
         description: "Esports website that allows users to register and host tournaments.",
         link:""
-        // image: "https://i.imgur.com/4v1X2xk.png"
     },
     {
       title: "Legal Lens",
       description: "A website that allows legal professionals to get strategies and predictive insights about their current cases",
       link: "",
-            // image: "https://i.imgur.com/4v1X2xk.png"
     },
     {
       title:"Youtube Video Sentiment Analysis",
@@ -40,29 +39,26 @@ const Projects = () => {
       description:"A website that takes csv files as input and gives out csv with duplicate values as outputs in fields specified by user",
       link:""
     },
-    {
-      title:"CSV Filter",
-      description:"A website that takes csv files as input and gives out csv with duplicate values as outputs in fields specified by user",
-      link:""
-    },
-    
   ]
 
   return (
     <div
     className=''
     >
-       <h1 className='my-1 md:my-4 mx-auto text-[#6B7280] text-center  text-4xl md:text-3xl lg:text-7xl font-extrabold'
+       <h1 className=' mt-2 mt-6 lg:mt-12 mx-auto text-[#6B7280] text-center  text-4xl md:text-3xl lg:text-7xl font-extrabold'
         >PROJECTS</h1>
-        <div className='flex flex-row flex-wrap space-x-4 w-full justify-between mt-12 space-y-12 p-0'>
+        <div className='flex flex-row flex-wrap space-x-4 w-full justify-between p-0'>
       {
         projects.map((project, index) => (
-            <div key={index} className='w-full md:w-1/4 mx-auto mb-8 '>
-                <h3 className='text-2xl md:text-2xl lg:text-3xl font-extrabold text-[#6B7280]'
-                //  style={{ textShadow: '3px 3px 7px rgba(255, 255, 255, 0.17)' }}
+            <div key={index} className='w-full md:w-1/4 h-1/5 mx-auto mb-8 '>
+                <h3 className='text-2xl md:text-2xl lg:text-3xl font-extrabold  my-1 sm:my-2 md:my-4 text-[#6B7280]'
                >{index + 1}. {project.title.toUpperCase()}</h3> 
-                <p className='text-sm md:text-lg font-thin'>{project.description}</p>
-                <img src={project.image} alt={project.title} className='w-full h-auto' />
+                <p className='text-sm md:text-lg font-thin text-center w-3/4 mx-auto'>{project.description}</p>             
+               
+                <h3 className='text-sm md:text-lg text-center font-thin text-blue-500'>
+                  {project.link}
+                </h3>
+            
             </div>
         ))
       }
