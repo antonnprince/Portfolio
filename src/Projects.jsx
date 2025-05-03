@@ -47,10 +47,10 @@ const Projects = () => {
     >
        <h1 className=' mt-2 mt-6 lg:mt-12 mx-auto text-[#6B7280] text-center  text-4xl md:text-3xl lg:text-7xl font-extrabold'
         >PROJECTS</h1>
-        <div className='flex flex-row flex-wrap space-x-4 w-full justify-between p-0'>
+        <div className='flex flex-row flex-wrap space-x-4 w-full p-0'>
       {
         projects.map((project, index) => (
-            <div key={index} className='w-full md:w-1/4 h-1/5 mx-auto mb-8 '>
+            <div key={index} className='w-full md:w-1/4 h-fit mx-auto '>
                 <h3 className='text-2xl md:text-2xl lg:text-3xl font-extrabold  my-1 sm:my-2 md:my-4 text-[#6B7280]'
                >{index + 1}. {project.title.toUpperCase()}</h3> 
                 <p className='text-sm md:text-lg font-thin text-center w-3/4 mx-auto'>{project.description}</p>             
