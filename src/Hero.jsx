@@ -8,13 +8,13 @@ const Hero = () => {
     >
         
       
-        <div className='flex flex-col flex-wrap relative w-full p-2 md:w-1/2 mx-auto'>
+        <div className='flex flex-col flex-wrap relative w-full p-2 mx-auto'>
          
-         <div className='flex flex-col md:flex-row mx-12 md:mx-4'>
+           <div className='flex flex-col md:flex-row mx-auto p-2'>
 
             <img src={profile} alt="profile"
-              className='w-52 h-52 rounded-full  
-              mr-12 my-8 relative'  
+              className=' w-42 h-42 mx-auto md:mx-12 lg:w-64 lg:h-64 rounded-full  
+             my-2 md:my-8 relative'  
             />
          
            <h1 className='font-extrabold text-5xl my-auto  transition-all duration-300 ease-in-out md:text-7xl lg:text-9xl'>
