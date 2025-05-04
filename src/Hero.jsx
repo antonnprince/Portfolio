@@ -2,6 +2,8 @@ import React from 'react'
 import profile from "./assets/profile.jpeg"
 import github from "./assets/github.svg"
 import linkedin from "./assets/linkd.svg"
+import mail from "./assets/mail.svg"  
+
 const Hero = () => {
   return (
     <div
@@ -11,7 +13,7 @@ const Hero = () => {
       
         <div className='flex flex-col flex-wrap relative w-full p-2 mx-auto'>
          
-           <div className='flex flex-col-reverse md:flex-row mx-auto  p-2'>
+           <div className='flex flex-col-reverse md:flex-row mx-auto h-fit p-2'>
 
               <div className='flex flex-col  my-2 md:my-8 mx-auto md:mx-12'>
                 <img src={profile} alt="profile"
@@ -30,6 +32,13 @@ const Hero = () => {
                   <img src={linkedin} alt="linkedin"
                     className='w-8 h-8 m-4'/>      
                   </a> 
+
+                  <a   href="https://mail.google.com/mail/?view=cm&fs=1&to=antonprince95@gmail.com&su=Hello&body=Hi%20there!"
+                  >
+                  <img src={mail} alt="mail"
+                  className='w-8 h-8 my-[20px] mx-4'/>
+                  </a> 
+
                 </div>
               </div> 
            <h1 className='font-extrabold text-5xl my-auto  transition-all duration-300 ease-in-out md:text-7xl lg:text-9xl'>

@@ -13,13 +13,12 @@ function App() {
     <div
     className='flex flex-col p-2 mx-4 h-full'
     >
-        {/* <Nav/> */}
-        <Hero/>
+               <Hero/>
         <Summary />
         <TechStacks/>
         <Experience/>
         <Projects/>
-        {/* <Contact/> */}
+       
    </div>
   )
 }
