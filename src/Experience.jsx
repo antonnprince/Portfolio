@@ -19,7 +19,7 @@ const Experience = () => {
             title: "React Native Developer Intern",
             company: "Raftel Tech",
             date: "May 2022 - November 2022",
-            description: "Developed a website using HTML, CSS, and JavaScript."
+            description: "Developed application using React Native, including user Authentication and Registration ."
         }
      ]
 
