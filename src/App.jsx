@@ -14,7 +14,7 @@ function App() {
     <div
     className='flex flex-col p-2 mx-4 h-full'
     >
-        <Nav/>
+        {/* <Nav/> */}
         <Hero/>
         <Summary />
         <TechStacks/>

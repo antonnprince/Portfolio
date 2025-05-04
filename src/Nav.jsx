@@ -10,7 +10,6 @@ const Nav = () => {
     <div
     className='bg-[#1C1917]  w-fit mx-auto px-2 md:px-12 py-1 sm:py-2 rounded-lg '
         >
-            {/* someting */}
 
         <ul className='flex flex-row flex-shrink space-x-12 text-xs md:text-lg px-2'>
             {

@@ -4,7 +4,7 @@ import profile from "./assets/profile.jpeg"
 const Hero = () => {
   return (
     <div
-    className='flex flex-col md:flex-row w-full justify-between mt-12 p-0'
+    className='flex flex-col md:flex-row w-full justify-between p-0'
     >
         
       
@@ -14,7 +14,7 @@ const Hero = () => {
 
             <img src={profile} alt="profile"
               className=' w-42 h-42 mx-auto md:mx-12 lg:w-64 lg:h-64 rounded-full  
-             my-2 md:my-8 relative'  
+             my-2 md:my-8 relative '  
             />
          
            <h1 className='font-extrabold text-5xl my-auto  transition-all duration-300 ease-in-out md:text-7xl lg:text-9xl'>
@@ -29,7 +29,7 @@ const Hero = () => {
           
           </div>  
           <p
-           className='text-center mx-auto w-3/4 p-1 text-xs md:text-lg'
+           className='text-center mx-auto w-full md:w-3/4 p-1 text-sm md:text-lg'
           >
            Hello! 👋 I'm Anton Prince Oommen, a highly skilled 
            Computer Science Engineering undergraduate
