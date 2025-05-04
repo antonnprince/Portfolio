@@ -1,12 +1,11 @@
 import React from 'react'
-import Nav from './Nav'
 import Hero from './Hero'
 import Summary from './Summary'
 import TechStacks from './TechStacks'
 import Experience from './Experience'
 import Projects from './Projects'
 import "./index.css"
-import Contact from './Contact'
+
 
 function App() {
 
@@ -20,7 +19,7 @@ function App() {
         <TechStacks/>
         <Experience/>
         <Projects/>
-        <Contact/>
+        {/* <Contact/> */}
    </div>
   )
 }
