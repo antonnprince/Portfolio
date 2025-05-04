@@ -29,10 +29,15 @@ const Hero = () => {
           
           </div>  
           <p
-           className='text-center mx-auto p-1 text-xs md:text-lg'
+           className='text-center mx-auto w-3/4 p-1 text-xs md:text-lg'
           >
-            Providing robust solutions in the field of fullstack website and mobile application development and deployment.
-            Currently exploring LLMs and MLOps.
+           Hello! 👋 I'm Anton Prince Oommen, a highly skilled 
+           Computer Science Engineering undergraduate
+            Full Stack Developer specializing in both web and mobile application development. 
+           I enjoy crafting seamless, efficient, and visually appealing softwares that provide exceptional user experiences. 
+           With expertise in modern technologies and frameworks, I build
+            scalable applications tailored to meet diverse organizational needs.  🚀✨
+            <br />
           </p>
         </div>
     </div>
