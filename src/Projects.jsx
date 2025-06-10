@@ -60,11 +60,9 @@ const Projects = () => {
                 <h3 className='text-2xl md:text-2xl lg:text-3xl font-extrabold  my-1 sm:my-2 md:my-4 text-[#6B7280]'
                >{index + 1}. {project.title.toUpperCase()}</h3> 
                 <p className='text-sm md:text-lg font-thin text-center w-3/4 md:w-full mx-auto'>{project.description}</p>             
-                  {/* <Link to={project.link}> */}
                     <h3 className='text-sm md:text-lg text-center font-thin text-blue-500'>
                     <a href={project.link}>{project.link}</a>
                 </h3>
-             {/* </Link>   */}
             </div>
         ))
       }
